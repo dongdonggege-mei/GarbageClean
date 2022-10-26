@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/Cleaner">
+        <file>res/垃圾清理图标.png</file>
+    </qresource>
+</RCC>

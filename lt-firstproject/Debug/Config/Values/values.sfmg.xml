@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Value Name="sfmg">
+	<Module>
+		<Item Key="module.softmgr.ui" Value="sfmg\SoftMgrUI.dll" />
+		<Item Key="module.softmgrBase" Value="sfmg\SoftMgrBase.dll" />
+		<Item Key="module.soft.identify" Value="sfmg\SoftIdentify.dll" />
+		<Item Key="module.softmgr.plugin" Value="Plugin\SoftManager.ext" />
+		<Item Key="app.soft.task.exec" Value="SoftTaskExec.exe" />
+		<Item Key="app.soft.notify" Value="SoftNotify.exe" />
+	</Module>
+	<File>
+		<Item Key="file.sfmg.identify.cloud" Value="sfmg\data\identify_soft_cloud.dat" />
+		<Item Key="file.sfmg.identify.local" Value="DB\identify_soft_local.db" />
+		<Item Key="file.sfmg.filter.localsoft" Value="sfmg\data\filter_soft_local.dat" />
+		<Item Key="file.sfmg.filter.cloudsoft" Value="sfmg\data\filter_soft_cloud.dat" />
+		<Item Key="file.sfmg.filter.update" Value="sfmg\data\filter_soft_update.dat" />
+		<Item Key="file.sfmg.info.install" Value="sfmg\data\info_soft_install.dat" />
+		<Item Key="file.sfmg.record.package" Value="sfmg\data\record_soft_package.dat" />
+		<Item Key="file.sfmg.record.update.soft" Value="sfmg\data\record_update_soft.dat" />
+	</File>
+	<Url>
+	</Url>
+	<Common>
+		<Item Key="common.sfmg.tag.id.local" Value="2" />
+		<Item Key="common.sfmg.tag.id.unknown" Value="4" />
+		<Item Key="common.sfmg.com.upd.win" Value="com_upd_win_sfmg" />
+		<Item Key="common.sfmg.com.upd.winser" Value="com_upd_winser_sfmg" />
+		<Item Key="common.sfmg.identify.local" Value="identify_soft_local" />
+		<Item Key="common.sfmg.task.wait.timeout" Value="60" />
+	</Common>
+</Value>
+
+<!--Signer=QI-ANXIN-->
+<!--Url=http://www.qianxin.com-->
+<!--Version=10.0.0.2201-->
+<!--SignData=6B3710B65D4BAA7F85793EC3D69DE6A2460B2DA528DEF41BBFE85748FCF3EC34302457FE131BFBA82634837D667DFEAF85A8AFE8CDD8358727D8AA01834F364AEF823474977E22F10236810127C4319BFF155A753C6A805C9165FF95E32C79B05FF89409DD0880E8B875BA558981455B7402FF1443F51AFEA8467A6C8C12734A028FB4F99D459D2CF8615ADFB8A1C8B8EFB0C0F31E93BE3B5D61DC744F83905749081FE93071FF453684F68CF19F779E5EAA46F6889F8776AE0BAB8B8CE8D657FB53662DD47AADC31B9D76EB4DAADF5F2A6E1D2E82FF31B153E2BB9F3D8F4AC7F4DA185A52B0F42A59034CDFFB7D6B9959949F3E9409E155FB6CAAA4028DA56D29A4C5C6968B424E357F6A9309D0655638A771B859B6FA859640F1E0AED53DAF0747133758821765A93CD31D4DB05FFF4A74881B7319058625CF464CA0D89FC4225C83B9241AC08366D2E766E648B8EF5C754C4EFB2B1109D3C03139DCC06B138FDE5ABBDB3A258D7C2C09BDE1D9B2C1CE0D595F1B6ED6E68A8BE745C51649B910F2806BFDB6A72CBE60AD8DBF25934D6C302EEACE89AE09923CB2D406D967654DBB494D35D76BACA9ADDEA6988BFBB3CC80C130F976CB7AC05ACD3459D5D2486A533A6445410E75D56BFE03C553E692D04908E0AD637D5CD95CED4ADE04EFF751B07B6B65821CD6F91EDBA584AA5B282FC0446315378907704915A7950D7768-->

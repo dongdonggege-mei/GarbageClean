@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Value Name="base">
+	<Module>
+		<Item Key="module.base" Value="QAXBase.dll" Value.x64="QAXBase.x64.dll" />
+		<Item Key="module.base.win32" Value="QAXBase.win32.dll" Value.x64="QAXBase.win32.x64.dll"/>
+		<Item Key="module.safebase" Value="SafeBase.dll" Value.x64="SafeBase.x64.dll" />
+		<Item Key="module.mdbase" Value="MDBase.dll" Value.x64="MDBase.x64.dll" />
+		<Item Key="module.libcurl" Value="libcurl.dll" />
+		<Item Key="module.rapidgrpc" Value="RapidGRPC.dll" />
+		<Item Key="module.qaxtrust" Value="QAXTrust.dll" />
+		<Item Key="module.engine.proxy" Value="EngineProxy.dll" />
+		<Item Key="app.entclient" Value="TQClient.exe" />
+		<Item Key="app.tray" Value="TQTray.exe" />
+		<Item Key="app.denender" Value="TQDefender.exe" />
+		<Item Key="app.update" Value="TQUpdate.exe" />
+		<Item Key="app.safeui" Value="TQSafeUI.exe" />
+		<Item Key="app.safeui.user" Value="TQSafeUI.exe"  ForceRunAsUser="true" />
+		<Item Key="app.settingcenter" Value="TQSettingCenter.exe" />
+		<Item Key="app.updateui" Value="TQUpdateUI.exe" />
+		<Item Key="app.logview" Value="TQLogView.exe" />
+		<Item Key="app.restart" Value="TQRestart.exe" />
+		<Item Key="app.dllUtil" Value="easymi\QAXDllUtil.exe"  ForceRunAsUser="true" />
+		<Item Key="app.dllUtil64" Value="easymi\QAXDllUtil_x64.exe"  ForceRunAsUser="true" />
+		<Item Key="module.cimom" Value="easymi\libcimom.dll" />
+		<Item Key="module.commonconfig" Value="commonconfig.dll" />
+		<Item Key="module.generalsetting" Value="generalsetting.dll" />
+		<Item Key="module.notice" Value="notice.dll" />
+		<Item Key="module.baseui" Value="BaseUI.dll" />
+		<Item Key="module.virus_ui" Value="AVMainUI.dll" />
+		<Item Key="module.hips_ui" Value="HIPSMainUI.dll" />
+		<Item Key="module.webpro" Value="webpro\webpro.dll" />
+		<Item Key="module.urlquery" Value="webpro\urlquery.dll" />
+		<Item Key="module.qaxpdown" Value="TQDown.dll" />
+		<Item Key="module.tqdown.service" Value="TQDownService.dll"/>
+		<Item Key="module.updatecore" Value="UpdateCore.dll" />
+		<Item Key="module.popwinmgr" Value="PopWinMgr.dll" />
+		<Item Key="module.popwinui" Value="PopWinUI.dll" />
+		<Item Key="app.avtrustzone" Value="AVTrustZone.exe" />
+		<Item Key="app.avrestore" Value="AVRestore.exe" ForceRunAsUser="true" />
+		<Item Key="app.avauthzone" Value="AVAuthZone.exe" />
+		<Item Key="module.avsecbase" Value="AVSecBase.dll" />
+		<Item Key="module.avregsysmenu_x64" Value="avRegSysMenu_x64.dll" />
+		<Item Key="module.avregsysmenu_x32" Value="avRegSysMenu_x32.dll" />
+		<Item Key="module.avconfigmgr" Value="scan\AVConfigMgr.dll" />
+		<Item Key="module.wscavctrl" Value="wscavctrl.exe" />
+		<Item Key="module.basicinfo" Value="binary\BasicInfo.dll" />
+		<Item Key="module.framework.external" Value="binary\external.dll" Value.x64="binary\external64.dll"/>
+		<Item Key="module.trayexit" Value="TrayExit.dll" />
+		<Item Key="module.updatelogview" Value="binary\UpdateLogView.dll" />
+		<Item Key="module.bd.bdardrv" Value="scan\scanbase\bd\bdardrv.dll" />
+		<Item Key="module.bd.bdcore" Value="scan\scanbase\bd\bdcore.dll" />
+		<Item Key="module.bd.scan" Value="scan\scanbase\bd\scan.dll" />
+		<Item Key="app.qaxdownmgrui" Value="QAXDownMgrUI.exe" />
+		<Item Key="module.7z" Value="7z.dll" />
+		<Item Key="module.base.lscEng" Value="Binary\lscEng.dll" />
+		<Item Key="module.base.lscExt" Value="Binary\lscExt.dll" />
+		<Item Key="module.qax.netcore" Value="QAXNetCore.dll" />
+		<Item Key="module.qce.cloudservice" Value="scan\cloudservice.dll" />
+		<Item Key="module.qre.configxml" Value="scan\ExtScanRuleConf.xml" />
+		<Item Key="module.qre.coreevaluation" Value="scan\core_evaluation.dll" />
+		<Item Key="module.qowl.libengine" Value="scan\scanbase\owl\libengine.dll" />
+		<Item Key="module.qowl.defbase" Value="scan\scanbase\owl\def\base0000.def" />
+		<Item Key="module.qowl.baseinfo" Value="scan\scanbase\owl\def\baseinfo.def" />
+		<Item Key="module.qde.engine" Value="scan\scanbase\qde\qde.dll" />
+		<Item Key="module.patch_ui" Value="TQLeakUI.dll" />
+		<Item Key="module.baseline_ui" Value="BaselineUI.dll" />
+		<Item Key="module.baseline" Value="Baseline.dll" />
+		<Item Key="module.leakrepairdll" Value="PatchRepair.dll" />
+		<Item Key="module.patchmgr32" Value="QAXPatchMgr.exe" />
+		<Item Key="module.patchmgr64" Value="QAXPatchMgr64.exe" />
+		<Item Key="module.patchlib" Value="patchlib" />
+		<Item Key="module.asset.register" Value="TQAssetRegister.exe" />
+		<Item Key="module.authentication" Value="TQAssetRegister.exe" ForceRunAsUser="true"/>
+		<Item Key="module.baseconfiglogview" Value="BaseConfigLogView.dll" />
+		<Item Key="module.basicmisc" Value="binary\BasicMisc.dll" />
+		<Item Key="module.qaxfirewallservice" Value="QAXFirewallService.dll"/>
+		<Item Key="module.certclient" Value="TQCertClient.dll"/>
+		<Item Key="app.udisktray" Value="TQUDiskTray.exe"/>
+		<Item Key="app.securityui" Value="TQSecurity.exe"/>
+		<Item Key="app.terminalinfo" Value="ClientInfo.exe"/>
+		<Item Key="app.InstantMessageUI" Value="InstantMessage.exe" ForceRunAsUser="true"/>
+		<Item Key="app.CIMUDiskAgent64" Value="easymi\cimudisk_agent_x64.exe"/>
+		<Item Key="module.workflow" Value="WorkFlowMain.exe"/>
+		<Item Key="module.leakrepairplugin" Value="Plugin\LeakRepairPlugin.dll"/>
+	</Module>
+	<File>
+		<Item Key="file.logo.titlebar" Value="res\titlebar_logo.ico" />
+		<Item Key="file.logo.titlebar.customize" Value="res\customize\titlebar_logo.ico" />
+		<Item Key="file.logo.titlebar.offline" Value="res\customize\titlebar_logo_offline.ico" />
+		<Item Key="file.logo.product.customize" Value="res\customize\product_logo.ext" />
+		<Item Key="file.background.image.customize" Value="res\customize\background_image.ext" />
+		<Item Key="file.popwin_i18n.xml" Value="config\popwin_i18n.xml" />
+		<Item Key="file.TrayMenu.xml" Value="config\TrayMenuConfig.xml" />
+		<Item Key="file.TrayClick.xml" Value="config\TrayClickConfig.xml" />
+		<Item Key="file.DsEngConf.xml" Value="scan\DsEngConf.xml" />
+		<Item Key="file.res.popwin.rcc" Value="res/popwin_res.rcc" />
+		<Item Key="file.res.public.rcc" Value="res/public_res.rcc" />
+		<Item Key="file.res.tqtray.rcc" Value="res/tqtray_res.rcc" />
+		<Item Key="file.res.trayexit.rcc" Value="res/trayexit_res.rcc" />
+		<Item Key="file.res.safeui.rcc" Value="res/safeui_res.rcc" />
+		<Item Key="file.config.notifier" Value="data/config_notifier.dat" />
+		<Item Key="file.module_config.dat" Value="Modularize/module_config.dat" />
+		<Item Key="file.smart.dat" Value="data/smart.dat" />
+		<Item Key="file.updatelogview.xml" Value="config\UpdateLogView.xml" />
+		<Item Key="file.qde.engine.json" Value="scan\scanbase\qde\conf\qde.json" />
+		<Item Key="file.accesspoint.json" Value="data/accesspoint.json" />
+	</File>
+	<Url>
+		<Item Key="url.base" Value="http://www.qianxin.com" />
+	</Url>
+	<Common>
+		<Item Key="common.base.test" Value="Test" />
+		<Item Key="common.skin.event.changed" Value="event.skin.changed" />
+		<Item Key="common.skin.logo.default" Value=":/public/logo" />
+		<Item Key="performance.value.cpu" Value="1" />
+		<Item Key="performance.value.sampling.count" Value="12" />
+		<Item Key="performance.value.sampling.interval" Value="5" />
+		<Item Key="default.product_name.zh_cn" Value="奇安信天擎"/>
+		<Item Key="default.product_name.en_us" Value="QI-ANXIN Tianqing"/>
+		<Item Key="default.product_name.zh_tw" Value="奇安信天擎"/>
+	</Common>
+</Value>
+
+<!--Signer=QI-ANXIN-->
+<!--Url=http://www.qianxin.com-->
+<!--Version=10.1.0.2000-->
+<!--SignData=0FEA663888EE68D78A01CCEF60EDD1878FE354E7966C87647AFBBCFF162BB2F501B0FAB467217528612FEBAD96B73F804537A2EC3CEA4060D4172AFB5019233B5553A78B4311CAC4AB05A03FEE46D65A5DB8658B628B63754C70486C4747FFA659416827C4C8E9D5D4CA4A57D66CEBDD8709D62E6FB4CDD8348C470B456901B154815E9BF29EA68763776DB98A534464C08789AB83CA3D241E9126C5937F9918CCC6C7E213FEBDEBAE3CC4038CC8749C36843730D02CBAEB40EA6B19770387305BEC531E937EB39411DA1EEB7ED622B984734CD02BFC8E3BCBA7BBD7C238DD408094B563600A620870DD4758EF3B2BF2596CBE3F14C3B8999AE9849436122EBA5DCB4EB568E6EBD1240293046A051C9013AD0F2A6D25166BB823945070182DF5A95197EA0AA5C27479EA5B16D4CE036842CED3C78A0F5D98CA81C63CE7F863A3397AD6D8CD07D94D88343441762D79CF7E336F9FDAE0B7741C490171B6EC0C43923E9684CF8FC997FCF9088FAF8392A3DB4EE8A3F47571C09D1C235F113FD223CD1DC068B1196F895069361B7711538DDDD459725DD81CD29E68C2B7AEE09B353F80D9B282C1C63EF1457E9A1F2AF6D35A48A754760ADFFF77563909FBDE3843A193F9E3652E9B594BB61A5E818806B8C21D39CDF12C0138F69859CA07C92B5824CD1FC54F8A3490A87055A578B02D49B1484426A277F588A7C4C7AC53CE660F-->

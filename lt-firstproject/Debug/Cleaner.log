@@ -1,0 +1,5 @@
+﻿  Cleaner.cpp
+D:\qsafe\lt-firstproject\Cleaner.cpp(151,9): warning C4819: 该文件包含不能在当前代码页(0)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\qsafe\lt-firstproject\Cleaner.cpp(153,9): warning C4819: 该文件包含不能在当前代码页(0)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\qsafe\lt-firstproject\Cleaner.cpp(160,9): warning C4819: 该文件包含不能在当前代码页(0)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Cleaner.vcxproj -> D:\qsafe\lt-firstproject\Debug\Cleaner.exe

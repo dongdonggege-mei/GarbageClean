@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config Product="QI-ANXIN Tianqing" SafePrefix="QAXSKYLAR" Name="QAXBase.config.xml" >
+	<ExpansionSlot>
+		<Item Name="Default" Config="Config/ExpansionSlot.xml" />
+	</ExpansionSlot>
+	<SpecialDir>
+		<Item Name="Database" Dir="DB" />
+		<Item Name="Config" Dir="Config" />
+		<Item Name="Logger" Dir="Log" />
+		<Item Name="Swap" Dir="Swap" />
+	</SpecialDir>
+	<ExtendValues>
+		<Item Name="base" Config="Config/Values/values.base.xml" />
+		<Item Name="scan" Config="Config/Values/values.scan.xml" />
+		<Item Name="security" Config="Config/Values/values.security.xml" />
+		<Item Name="defender" Config="Config/Values/values.defender.xml" />
+		<Item Name="bitdefender" Config="scan\scanbase\bd\values.bd.xml" />
+		<Item Name="qcm" Config="Config/Values/values.qcm.xml" />
+		<Item Name="sfmg" Config="Config/Values/values.sfmg.xml" />
+		<Item Name="tg-c" Config="Config/Values/values.tg-c.xml" />		
+		<Item Name="bdupdate" Config="bdupdate/values.bdupdate.xml" />	
+	</ExtendValues>
+	<ExternalModules>
+		<Item Name="crt" Config="Config/External/external.modules.crt.xml" />
+		<Item Name="qt" Config="Config/External/external.modules.qt.xml" />
+		<Item Name="dlp" Config="Config/External/external.modules.dlp.xml" />
+	</ExternalModules>
+</Config>
+
+<!--Signer=QI-ANXIN-->
+<!--Url=http://www.qianxin.com-->
+<!--Version=10.1.0.2000-->
+<!--SignData=634D5F1613260715456CF05EEE79CB8E5C1AC270B27C7B6B0A23C0B969CF4299056A411AC2452C46E1EA2EB7BFF5E19AA9A0A6E5DE55FFEA73A108AA34A44687EA8E43640406832F599D1FB7B86F4B2D96C3FC3CAA1C217073F897AFAE89E674C14B02DEC2306FEC7B2708CB0AB40FEAB6601B2428DFD855CD296558361AD185F1381250B8238D65215BEB8645A7049B9181C5CD43585DFBE69C962B2B65A36D26DBAAB515AC0A1EBD884B366A225AFA85CDC92244FEA80CC313F9CDBB642595D6A682BAA69B82D940F0819ED9F4C3E1521107EE395F19B8259F19F72E882D68417ABD57E50CA21888F51E62CA96EFE97D6D4A33F7A67B4D68A9CCF6DFC58EB8A684024450807BC9F5F868782A2C2E063C4371BC18BDAA8CF630419FE7DB65EE60CF794CA2DAE381F2563D9229E676F022A6EF883016C30F9C4B3B862805C91AC92C2A665DD0E25257F1721BBB9D2B79F7E933824229288DDB6536B4FD4AAC182FC6550A16E1973BD6F1F5EEE31FA19392CF73BC11540D478E3CC6FC61512C8FBBFCA61889AB7176E1F6C6F00A227D2398B68056549B939021BD9B10902E893ABDA3ADE97260AA679217E2A19276979B152A29934F5B25F5093187CD1E769CA4589852ADB0500092E15FA52F35D6F0E419DAFCF0ECB7D3297A3A2EAB7085ED22BFBD68BD52871F2E179270F3AF7E5854A092A53DCB804C92250833EF410C4046-->
